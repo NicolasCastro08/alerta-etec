@@ -1,0 +1,17 @@
+
+git config --global user.name NicolasCastro08
+git config --global user.email nicolasferreia@gmail.com
+
+
+
+-- criar projeto
+npx create-expo-app@latest AlertaEtec --template blank-typescript@sdk-57
+
+cd AlertaEtec
+npx expo start
+
+
+-- Alinhar dependências
+npm install
+npx expo install --fix
+npx expo-doctor
